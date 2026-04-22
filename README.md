@@ -929,7 +929,7 @@ O sistema permite que fisioterapeutas personalizem completamente o tratamento en
 **Trabalho realizado por:**
 - **Jorge Castro** nº 210094
 
-![INETE](./imagens/INETE.png)
+![INETE](./Imagens/INETE.png)
 =======
 # MotionMendVR-PAP
 >>>>>>> 96f2c9e807990651f3b5eb799e8e0867e5bf2b5f
