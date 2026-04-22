@@ -395,7 +395,7 @@ Após a instalação bem-sucedida:
 
 A base de dados do **MotionMendVR** é composta por 7 tabelas principais, que armazenam desde os dados dos utilizadores até aos resultados das simulações.
 
-![Diagrama da Base de Dados](./imagens/13.png)
+![Diagrama da Base de Dados](./Imagens/13.png)
 
 ---
 
@@ -537,7 +537,7 @@ Ao iniciar a aplicação, o utilizador é apresentado com uma página de **login
 - Se as credenciais inseridas estiverem **incorretas**, será exibida uma mensagem de erro.
 - Se não tiver uma conta, clique em **"Criar nova conta"** para iniciar o processo de criação.
 
-![Página de Login](./imagens/14.jpg)
+![Página de Login](./Imagens/14.jpg)
 
 ---
 
@@ -562,7 +562,7 @@ Na página de criação de nova conta, o utilizador deve preencher os seguintes 
   - O utilizador é adicionado à base de dados através de uma **Stored Procedure (SP)**
   - É automaticamente **redirecionado** para a página de login
 
-![Página de Criação de Conta](./imagens/15.jpg)
+![Página de Criação de Conta](./Imagens/15.jpg)
 
 ---
 
@@ -582,7 +582,7 @@ Ao chegar a esta página, o utilizador é recebido com uma **mensagem de boas-vi
   - Game Settings
   - Logout
 
-![Homepage](./imagens/16.jpg)
+![Homepage](./Imagens/16.jpg)
 
 ---
 
@@ -607,7 +607,7 @@ O perfil mostra as informações do utilizador:
 - Caso alguma informação esteja incorreta → mensagem de erro explicativa
 - Se a informação estiver correta → as atualizações são feitas na base de dados através de uma **Stored Procedure**
 
-![Página de Perfil](./imagens/17.jpg)
+![Página de Perfil](./Imagens/17.jpg)
 
 ---
 
@@ -621,13 +621,13 @@ Nesta página, o utilizador consegue visualizar o **botão menu** (com as opçõ
   - **Definições Padrão** → Selecionar configurações pré-definidas
   - **Definições Personalizadas** → Criar configurações à medida
 
-![Página de Definições](./imagens/18.jpg)
+![Página de Definições](./Imagens/18.jpg)
 
 ---
 
 ### 🎯 Definições Padrão
 
-Após clicar no botão **"Definições Padrão"**, aparecerão **quatro imagens**, cada uma correspondente a uma configuração padrão:
+Após clicar no botão **"Definições Padrão"**, aparecerão **quatro Imagens**, cada uma correspondente a uma configuração padrão:
 
 | Imagem | Número de Alvos | Dificuldade |
 | :----- | :-------------- | :---------- |
@@ -644,7 +644,7 @@ Após clicar no botão **"Definições Padrão"**, aparecerão **quatro imagens*
 3. A informação é guardada na base de dados através de uma **Stored Procedure**
 4. O utilizador é redirecionado para a página **"Next Step"** (explicação de como introduzir o ficheiro nos Oculus VR)
 
-![Definições Padrão](./imagens/19.jpg)
+![Definições Padrão](./Imagens/19.jpg)
 
 ---
 
@@ -670,7 +670,7 @@ Após clicar em **"Definições Personalizadas"**, a primeira etapa apresenta:
   - Valor = **0** → sem limite de tempo
 - Os níveis podem ser ajustados de forma independente
 
-![Definições Personalizadas - Etapa 1](./imagens/20.jpg)
+![Definições Personalizadas - Etapa 1](./Imagens/20.jpg)
 
 ---
 
@@ -699,7 +699,7 @@ Na segunda etapa, o utilizador configura os parâmetros específicos de cada alv
   - A configuração é guardada na base de dados através de uma **Stored Procedure**
   - O utilizador é redirecionado para a página **"Next Step"** com instruções de como usar o ficheiro
 
-![Definições Personalizadas - Etapa 2](./imagens/21.jpg)
+![Definições Personalizadas - Etapa 2](./Imagens/21.jpg)
 
 ---
 
@@ -712,7 +712,7 @@ O ficheiro de configurações criado pelo utilizador na aplicação serve para:
 
 #### Estrutura do Ficheiro
 
-![Estrutura do Ficheiro de Configurações](./imagens/22.png)
+![Estrutura do Ficheiro de Configurações](./Imagens/22.png)
 
 #### Descrição dos Elementos
 
@@ -809,7 +809,7 @@ Após o ficheiro ser descarregado, o utilizador será redirecionado para esta p�
 
 ---
 
-![Instruções Oculus VR](./imagens/23.jpg)
+![Instruções Oculus VR](./Imagens/23.jpg)
 
 ---
 
@@ -823,7 +823,7 @@ Ao entrar na simulação, o utilizador é apresentado com um menu principal que 
 - **Opções**: Ao clicar nesta opção, o utilizador pode ajustar o som, controlando o volume do som ambiente, e também pode ajustar a sensibilidade da mão esquerda e da mão direita.
 - **Sobre**: Esta opção mostra informações sobre a aplicação, como a sua finalidade e o objetivo da mesma.
 
-![Menu Principal](./imagens/24.png)
+![Menu Principal](./Imagens/24.png)
 
 
 ### Iniciar Simulação
@@ -832,14 +832,14 @@ Ao clicar na opção **Iniciar**, aparece um novo conteúdo onde o utilizador de
 
 Durante este processo, se algum erro for detetado, uma mensagem será exibida para informar o utilizador sobre o problema encontrado. Por outro lado, se não houver nenhum erro, a simulação iniciará.
 
-![Iniciar Simulação](./imagens/25.png)
+![Iniciar Simulação](./Imagens/25.png)
 
 
 ### Tela de Carregamento
 
 Vai haver uma tela de carregamento (load…).
 
-![Tela de Carregamento](./imagens/26.png)
+![Tela de Carregamento](./Imagens/26.png)
 
 ### Início da Simulação
 
@@ -849,7 +849,7 @@ Após a contagem decrescente, todos os alvos desaparecem. Em seguida, surgem doi
 
 Quando esses canvas aparecem, surge também o primeiro alvo, que aparece de forma aleatória.
 
-![Início da Simulação](./imagens/27.png)
+![Início da Simulação](./Imagens/27.png)
 
 #### Mecânica de Jogo
 
@@ -880,7 +880,7 @@ Simultaneamente, é criado um ficheiro com o resultado da simulação.
 
 Ficheiro XML com estrutura: `<Analysis>` → `<filename_settings>`, `<username>`, `<Level>` → `<BallID>` → `<Touched>`, `<Time>`
 
-![Exemplo de Ficheiro de Resultado](./imagens/28.png)
+![Exemplo de Ficheiro de Resultado](./Imagens/28.png)
 
 | Campo | Descrição |
 | :---- | :-------- |
@@ -901,7 +901,7 @@ Ficheiro XML com estrutura: `<Analysis>` → `<filename_settings>`, `<username>`
 4. Selecione o ficheiro com o resultado (nome: `nomedoficheiro_result.xml`)
 5. O ficheiro será validado e armazenado na base de dados
 
-![Upload do Ficheiro de Resultado](./imagens/29.jpg)
+![Upload do Ficheiro de Resultado](./Imagens/29.jpg)
 
 #### 📊 Etapa 2: Visualizar Resultados
 
@@ -912,7 +912,7 @@ Após o upload bem-sucedido, a aplicação gera um **gráfico para cada nível**
 
 Este histórico permite **comparar desempenhos** e identificar alvos com maior dificuldade para melhoria posterior.
 
-![Gráfico de Resultados](./imagens/30.jpg)
+![Gráfico de Resultados](./Imagens/30.jpg)
 
 
 
