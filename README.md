@@ -931,8 +931,3 @@ O sistema permite que fisioterapeutas personalizem completamente o tratamento en
 
 ![INETE](./Imagens/INETE.png)
 =======
-# MotionMendVR-PAP
->>>>>>> 96f2c9e807990651f3b5eb799e8e0867e5bf2b5f
-=======
-# MotionMendVR-PAP
->>>>>>> 96f2c9e807990651f3b5eb799e8e0867e5bf2b5f
