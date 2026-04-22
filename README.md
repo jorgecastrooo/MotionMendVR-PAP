@@ -51,6 +51,10 @@
 
 O **MotionMendVR** é um projeto que integra uma **aplicação externa** e uma **simulação interativa** em Realidade Virtual, desenvolvido para promover a **mobilização articular** e a **coordenação óculo-manual** em pessoas com **Doença de Parkinson**.
 
+Devido ao tamanho elevado do projeto (ficheiros, assets e builds de Unity), o mesmo não pôde ser alojado diretamente no repositório, tendo sido disponibilizado através da Google Drive.
+
+🔗 Acesso ao projeto completo:
+https://drive.google.com/drive/folders/1IkEvlMj6pOyn4c6vqIAV5kfMqXeUNSHQ?usp=drive_link
 ---
 
 ## 🎯 Significado do Nome
